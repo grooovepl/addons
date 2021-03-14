@@ -1,0 +1,14 @@
+{
+  "name": "@grooovepl/addon-release-tool",
+  "version": "1.0.0",
+  "description": "This tool simply pushes built addons to GitHub repo. Files are then served via https://cdn.jsdelivr.net CDN.",
+  "main": "release.js",
+  "author": "grooovepl",
+  "license": "ISC",
+  "scripts": {
+    "release:counter": "node release counter"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}
